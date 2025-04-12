@@ -1,0 +1,17 @@
+{
+  "name": "westfit",
+  "version": "1.0.0",
+  "description": "Website for Westfit Gym",
+  "main": "index.js",
+  "scripts": {
+    "cleanBuild": "rd /s /q dist && tsc",
+    "build": "tsc --watch",
+    "start": "tsc && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mariah Diaz",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
