@@ -15,6 +15,7 @@
   "license": "ISC",
   "devDependencies": {
     "@types/express": "^5.0.1",
+    "@types/google.maps": "^3.58.1",
     "concurrently": "^9.1.2",
     "html-loader": "^5.1.0",
     "typescript": "^5.8.3"
