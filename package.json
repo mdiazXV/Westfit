@@ -7,6 +7,8 @@
     "cleanBuild": "rd /s /q dist && tsc",
     "build": "tsc --watch",
     "start": "concurrently \"tsc --watch\" \"node dist/index.js\"",
+    "begin": "node dist/index.js",
+    "dev": "npm run build && npm run start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Mariah Diaz",
